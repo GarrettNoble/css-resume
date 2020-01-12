@@ -5,8 +5,8 @@
     grid-template-areas: 
         "name photo"
         "work about"
-        "work education"
-        "community skills";
+        "work skills"
+        "community education";
 }
 
 .name {
@@ -26,7 +26,7 @@
 }
 
 .education {
-    grid-area : work;
+    grid-area : education;
 }
 
 .community {
