@@ -1,12 +1,15 @@
 .resume {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-        "name name photo"
-        "work work about"
-        "work work education"
-        "community references skills"
+        "photo"
+        "name"
+        "about"
+        "work"
+        "education"
+        "skills"
+        "community"
+        "references";
 }
 
 .name {
