@@ -2,6 +2,11 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "name photo"
+        "work about"
+        "work education"
+        "community skills";
 }
 
 .name {
@@ -31,3 +36,4 @@
 .skills {
     grid-area : skills;
 }
+
